@@ -8,6 +8,6 @@ public class App
 {
   public static void main( String[] args )
   {
-    SQSService.sendMessage("Uma mensagem - " + LocalDate.now());
+    SQSService.sendMessage("Segunda mensagem de teste para o exercício  SQS na data : - " + LocalDate.now());
   }
 }
